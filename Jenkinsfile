@@ -8,8 +8,19 @@ pipeline {
 
     stages {
         stage('Build'){
+            echo 'Building Code'
+            sh './gradlew test'
         }
         stage('Test') {
+            steps {
+                echo 'Testing JUnit'
+                sh './gradlew test'
+            }
+            post {
+                always {
+                    junit 'build/test-results/test/*/.xml'
+               }
+           }
         }
     }
 }
