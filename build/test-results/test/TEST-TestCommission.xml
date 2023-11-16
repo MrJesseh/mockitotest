@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCommission" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-16T20:42:13" hostname="Jesses-MacBook-Air.local" time="0.112">
+  <properties/>
+  <testcase name="testGetCommissionEnterWhileLoop" classname="TestCommission" time="0.112"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Nov 16, 2023 3:42:14 PM CalculateCommission getCommission
+INFO: Total sales: 2500.0
+Nov 16, 2023 3:42:14 PM CalculateCommission getCommission
+INFO: Commission is: $520.0
+]]></system-err>
+</testsuite>
